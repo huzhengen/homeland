@@ -16,7 +16,7 @@ GIT
       activesupport (>= 4.0, < 8)
 
 GEM
-  remote: https://rubygems.org/
+  remote: https://gems.ruby-china.com/
   specs:
     action-store (1.1.2)
       rails (>= 5.2)

@@ -3,6 +3,10 @@ default: &default
   pool: <%= ENV["DATABASE_POOL"] || 64 %>
   timeout: 5000
   encoding: utf-8
+  username: test
+  password: 123456
+  host: localhost
+  port: 5432
 
 development:
   <<: *default
